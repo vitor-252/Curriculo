@@ -1,0 +1,47 @@
+/*Seletor de elemento*/
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+/*Seletor de classe*/
+
+.cabecalho {
+    margin-top: 1rem;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+    gap: 220px;            /* Espaço entre o h1 e a imagem */
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0 0 10px rgb(215, 215, 215);
+}
+/*Seletor de identidade*/
+
+#nome {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Ajustando a imagem*/
+
+.fotinha {
+    width: 200px;   /* Ajuste o tamanho como preferir */
+    height: 200px;
+    border-radius: 50%; /* Opcional: bordas arredondadas */
+}
+
+.ladinhu {
+    display: flex;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0 0 10px rgb(215, 215, 215);
+    margin: 1%;
+}
+
+.conteudo {
+    width: 70%;
+    padding: 1rem;
+}
